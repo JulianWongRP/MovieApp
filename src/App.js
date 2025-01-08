@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const KEY = "3b8e5491"; // API key for OMDB API (You can move this to an environment variable)
+const KEY = ""; // API key for OMDB API (You can move this to an environment variable)
 
 function App() {
   const [movies, setMovies] = useState([]);
